@@ -1,0 +1,4 @@
+Host git_gakunai_jp
+    HostName        git.gakunai.jp
+    IdentityFile    /home/tnzk/.ssh/gakunai_id_rsa
+    User            git

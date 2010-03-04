@@ -1,0 +1,11 @@
+defencoding utf-8
+encoding utf-8 utf-8
+escape ^]v
+vbell on
+vbell_msg "(OxO)"
+#caption always "test"
+#caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= [rscreen] - @%H - %Y/%m/%d %c:%s"
+caption always "%{+u bk} "
+hardstatus alwayslastline "%{w}%?%-w%?%{+b m}|%n %t|%{w}%?%+w%? %-= %{=b}%{g}Host: %{+u y}%H%{-u} %{c}%Y-%m-%d%{w}%c:%s"
+
+
